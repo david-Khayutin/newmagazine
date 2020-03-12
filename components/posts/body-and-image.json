@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "components_posts_body_and_images",
+  "info": {
+    "name": "body_&_image",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body_text": {
+      "type": "richtext",
+      "required": true
+    },
+    "image_style": {
+      "type": "enumeration",
+      "enum": [
+        "Single",
+        "Slide_show"
+      ],
+      "default": "Single",
+      "required": true
+    },
+    "image_selecion": {
+      "type": "json"
+    }
+  }
+}

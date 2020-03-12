@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "feature_contents",
+  "info": {
+    "name": "feature_content"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "number": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C"
+      ],
+      "required": true
+    },
+    "post": {
+      "model": "post"
+    }
+  }
+}

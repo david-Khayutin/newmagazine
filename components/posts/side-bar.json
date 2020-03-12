@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "components_posts_side_bars",
+  "info": {
+    "name": "Side_bar",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "component",
+      "repeatable": false,
+      "component": "posts.body"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "posts.link"
+    },
+    "body_and_image_select": {
+      "type": "component",
+      "repeatable": false,
+      "component": "posts.body-and-image"
+    }
+  }
+}

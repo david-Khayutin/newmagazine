@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "components_posts_videos",
+  "info": {
+    "name": "video",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "video_url": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

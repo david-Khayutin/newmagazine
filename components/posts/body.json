@@ -1,0 +1,15 @@
+{
+  "connection": "default",
+  "collectionName": "components_posts_bodies",
+  "info": {
+    "name": "body",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "body_text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

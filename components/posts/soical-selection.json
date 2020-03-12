@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "components_posts_soical_selections",
+  "info": {
+    "name": "Soical_Selection",
+    "icon": "comment"
+  },
+  "options": {},
+  "attributes": {
+    "social_selection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "posts.social"
+    }
+  }
+}

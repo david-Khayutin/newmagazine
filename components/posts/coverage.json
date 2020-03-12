@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_posts_coverages",
+  "info": {
+    "name": "coverage",
+    "icon": "compress-arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "model": "tags"
+    }
+  }
+}

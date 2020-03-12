@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "posts",
+  "info": {
+    "name": "post"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "cities": {
+      "collection": "city",
+      "via": "posts",
+      "dominant": true
+    },
+    "tags": {
+      "collection": "tags",
+      "via": "posts"
+    },
+    "publish_at": {
+      "type": "datetime",
+      "required": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "published",
+        "archive"
+      ],
+      "required": true
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "layout_type": {
+      "type": "enumeration",
+      "enum": [
+        "Feature",
+        "Regular",
+        "Guide",
+        "Slide_Show",
+        "Video",
+        "Listicle"
+      ],
+      "required": true
+    },
+    "Hero": {
+      "type": "dynamiczone",
+      "components": [
+        "posts.hero",
+        "posts.body-and-image",
+        "posts.body",
+        "posts.related-coverage",
+        "posts.quotes",
+        "posts.side-bar",
+        "posts.soical-selection",
+        "posts.map-info",
+        "posts.video"
+      ]
+    }
+  }
+}

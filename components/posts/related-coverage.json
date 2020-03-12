@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "components_posts_related_coverages",
+  "info": {
+    "name": "related_coverage",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "related_coverage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "posts.coverage"
+    }
+  }
+}

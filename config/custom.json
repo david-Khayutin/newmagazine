@@ -1,0 +1,4 @@
+{
+  "BEARER": "ya29.a0Adw1xeXjMn7IQOba97Lvv13a1jK-NSQgNzo6emSrUzxoQC9zAQx1TOL7ksOZx9qpc_sMyGcWUTqp3rv0sZ5ggZwvsbncS7LzJoK-AHmqQEAGLBgXdYz-NB92UYzbo7aOge6_EHCDG8wcZVKTYogPkLolFvwNRp_4teM",
+  "BUCKET_NAME": "${process.env.BUCKET_NAME}"
+}

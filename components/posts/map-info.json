@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "components_posts_map_infos",
+  "info": {
+    "name": "map_info",
+    "icon": "map-marked"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "body": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

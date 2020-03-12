@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "components_posts_socials",
+  "info": {
+    "name": "social",
+    "icon": "comment-alt"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "Social_Platform": {
+      "type": "enumeration",
+      "enum": [
+        "Instagram",
+        "Facebook",
+        "Twitter",
+        "Pintrest",
+        "LinkedIn"
+      ]
+    }
+  }
+}

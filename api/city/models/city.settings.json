@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "cities",
+  "info": {
+    "name": "city"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "city_name": {
+      "type": "string",
+      "required": true
+    },
+    "posts": {
+      "via": "cities",
+      "collection": "post"
+    }
+  }
+}

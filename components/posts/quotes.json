@@ -1,0 +1,15 @@
+{
+  "connection": "default",
+  "collectionName": "components_posts_quotes",
+  "info": {
+    "name": "Quotes",
+    "icon": "quote-left"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

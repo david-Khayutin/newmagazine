@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "components_posts_heroes",
+  "info": {
+    "name": "Hero",
+    "icon": "money-check"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "json",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image_style": {
+      "type": "enumeration",
+      "enum": [
+        "Single",
+        "Slide_show"
+      ],
+      "required": true,
+      "default": "Single"
+    }
+  }
+}
