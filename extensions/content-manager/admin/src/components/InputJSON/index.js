@@ -20,7 +20,7 @@ import axios from "axios"
 
 const bucketName = "newmagazine"
 const imageUrl= "http://localhost:1337/posts/findImageInformation/"
-const imageInfoURL = "http://localhost:1337/posts/getImageFromGoogle"
+const imageInfoURL = "https://newmagazine.herokuapp.com/posts/getImageFromGoogle"
 class InputJSON extends React.Component {
   constructor(props) {
     super(props);

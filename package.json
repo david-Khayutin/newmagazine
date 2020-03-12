@@ -11,9 +11,8 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "fs-extra": "^8.1.0",
     "knex": "<0.20.0",
-    "mysql": "latest",
+    "mysql": "^2.18.1",
     "mysql2": "^2.1.0",
     "react-icons": "^3.9.0",
     "react-image-picker": "^1.1.1",

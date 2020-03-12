@@ -44,6 +44,7 @@ module.exports = {
           ctx.send(res);
       },
       async getImageFromGoogle(ctx){
+        console.log(">>>>>>>>>>>>>>>>>>>>>>>>>Bucket name:",strapi.config.BUCKET_NAME)
         const images = await axios({
           method: "get",
           url:`https://storage.googleapis.com/storage/v1/b/${strapi.config.BUCKET_NAME}/o`,
